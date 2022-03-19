@@ -13,7 +13,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
   status: {
-    danger: '#e53e3e',
+    danger: '#FF7974',
   },
   palette: {
     primary: {
