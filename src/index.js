@@ -112,7 +112,7 @@ class Game extends React.Component {
       return (
         <li key={move}>
           <ThemeProvider theme={theme}>
-            <Button variant="contained" color="primary" sx={{ m: -2 }} onClick={() => this.jumpTo(move)}>{decs}</Button>
+            <Button variant="contained" color="primary" onClick={() => this.jumpTo(move)}>{decs}</Button>
           </ThemeProvider>
         </li>
       )
